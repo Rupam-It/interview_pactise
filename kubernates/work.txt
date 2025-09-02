@@ -1,0 +1,50 @@
+Level 1: Basic Pod & Container Practice
+
+ Create a simple pod with nginx
+ Create pod with environment variables
+ Create pod with volume mounts
+ Practice init containers (wait for database)
+ Practice sidecar containers (logging)
+ Create pods with resource limits/requests
+
+Level 2: Workload Controllers
+
+ Create Deployment with 3 replicas
+ Scale deployment up/down
+ Rolling update deployment (change image version)
+ Create StatefulSet for database
+ Create DaemonSet for node monitoring
+ Create Job for one-time task
+ Create CronJob for scheduled backup
+
+Level 3: Services & Networking
+
+ Create ClusterIP service
+ Create NodePort service
+ Create LoadBalancer service (if on cloud)
+ Setup Ingress controller (nginx)
+ Create Ingress for multiple paths
+ Apply Network Policies (deny all → allow specific)
+
+Level 4: Configuration & Storage
+
+ Create ConfigMap and use in pod
+ Create Secret and mount as volume
+ Create PersistentVolume and PersistentVolumeClaim
+ Mount PVC in StatefulSet
+ Practice different volume types (emptyDir, hostPath)
+
+Level 5: Health Checks & Monitoring
+
+ Add liveness probe to pod
+ Add readiness probe to pod
+ Add startup probe for slow app
+ Practice probe failure scenarios
+
+Level 6: Security Practice
+
+ Create ServiceAccount
+ Create Role and RoleBinding
+ Apply Pod SecurityContext
+ Create and apply NetworkPolicy
+ Practice secret mounting different ways

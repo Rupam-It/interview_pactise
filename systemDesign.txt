@@ -1,0 +1,207 @@
+# Complete System Design Syllabus
+
+## System Design Fundamentals
+
+### Scalability Concepts
+- Horizontal vs Vertical Scaling
+- Load Balancing (Round Robin, Weighted, Least Connections)
+- Auto-scaling and Capacity Planning
+- Performance Metrics (Latency, Throughput, QPS)
+
+### Database Design
+- SQL vs NoSQL - When to use what
+- Database Scaling: Sharding, Replication (Master-Slave, Master-Master)
+- ACID Properties vs BASE Properties
+- CAP Theorem - Consistency, Availability, Partition Tolerance
+- Database Types: Document (MongoDB), Key-Value (Redis), Column (Cassandra), Graph (Neo4j)
+
+### Caching Strategies
+- Cache Patterns: Cache-aside, Write-through, Write-behind, Refresh-ahead
+- Cache Levels: Browser, CDN, Reverse Proxy, Application, Database
+- Tools: Redis, Memcached, Elasticsearch
+- Cache Invalidation and Cache Coherency
+
+### Communication Protocols
+- HTTP/HTTPS - REST APIs, Status Codes
+- WebSockets - Real-time communication
+- gRPC - High-performance RPC
+- Message Queues: RabbitMQ, Apache Kafka, Amazon SQS
+- Pub/Sub Patterns
+
+### Microservices Architecture
+- Service Discovery and API Gateway
+- Circuit Breaker Pattern
+- Distributed Tracing and Logging
+- Container Orchestration (Docker, Kubernetes)
+- Service Mesh (Istio, Linkerd)
+
+## Advanced Topics
+
+### Distributed Systems
+- Consensus Algorithms: Raft, Paxos
+- Distributed Locking and Leader Election
+- Eventual Consistency vs Strong Consistency
+- Vector Clocks and Logical Clocks
+- Distributed Transactions (2PC, Saga Pattern)
+
+### Data Processing
+- Batch Processing: MapReduce, Apache Spark
+- Stream Processing: Apache Kafka, Apache Storm, Apache Flink
+- ETL Pipelines and Data Warehousing
+- Lambda Architecture vs Kappa Architecture
+
+### Security & Monitoring
+- Authentication: OAuth, JWT, SSO
+- Authorization: RBAC, ABAC
+- Rate Limiting and DDoS Protection
+- Monitoring: Prometheus, Grafana, ELK Stack
+- Alerting and SLA/SLO Management
+
+## Common System Design Patterns
+
+### Design Patterns
+- Database Per Service
+- CQRS (Command Query Responsibility Segregation)
+- Event Sourcing
+- Bulkhead Pattern
+- Strangler Fig Pattern
+- Backend for Frontend (BFF)
+
+### Reliability & Availability
+- Fault Tolerance and Graceful Degradation
+- Health Checks and Circuit Breakers
+- Disaster Recovery and Backup Strategies
+- Blue-Green Deployment and Canary Releases
+
+## Additional Advanced Topics
+
+### Emerging Technologies
+- Edge Computing and CDN Architecture
+- Serverless Architecture (AWS Lambda, Function-as-a-Service)
+- GraphQL vs REST API design
+- Event-Driven Architecture (Event Streaming, Event Sourcing)
+- Multi-tenant Architecture (SaaS applications)
+
+### Performance Optimization
+- Database Query Optimization and Indexing Strategies
+- Memory Management and Garbage Collection impact
+- Network Optimization (Connection Pooling, Keep-Alive)
+- Compression Techniques (gzip, Brotli)
+- Performance Testing (Load testing, Stress testing)
+
+### Data Architecture
+- Data Lake vs Data Warehouse
+- Real-time Analytics (Apache Druid, ClickHouse)
+- Search Systems (Elasticsearch, Solr, Lucene)
+- Recommendation Systems basics
+- Time-Series Databases (InfluxDB, TimescaleDB)
+
+### Security Deep Dive
+- Zero Trust Architecture
+- API Security (API keys, throttling, input validation)
+- Data Privacy (GDPR, data anonymization)
+- Encryption (at rest, in transit, end-to-end)
+
+### Mobile & Global Scale
+- Mobile Backend Design considerations
+- Global Distribution and Multi-region deployments
+- Content Delivery Networks (CDN) strategies
+- Offline-first architecture
+
+## Industry-Specific Knowledge
+
+### Fintech
+- Payment processing, compliance, fraud detection
+
+### Gaming
+- Real-time multiplayer, leaderboards, matchmaking
+
+### IoT
+- Device management, telemetry, edge processing
+
+### ML/AI Systems
+- Model serving, A/B testing, feature stores
+
+## System Design Interview Practice
+
+### Common Interview Questions
+1. Chat System (WhatsApp, Slack)
+2. Social Media Feed (Twitter, Instagram)
+3. URL Shortener (bit.ly, tinyurl)
+4. Video Streaming (YouTube, Netflix)
+5. Ride-Sharing (Uber, Lyft)
+6. Search Engine (Google)
+7. E-commerce Platform (Amazon)
+8. Payment System (PayPal, Stripe)
+9. Notification System
+10. File Storage (Google Drive, Dropbox)
+
+### Interview Approach
+1. Clarify Requirements - Functional & Non-functional
+2. Estimate Scale - Users, QPS, Storage
+3. High-Level Design - Major components
+4. Detailed Design - Deep dive into components
+5. Scale the Design - Handle growth
+6. Identify Bottlenecks - What could go wrong
+
+## Tools & Technologies to Know
+
+### Databases
+- MySQL, PostgreSQL, MongoDB, Redis, Cassandra
+
+### Message Queues
+- Kafka, RabbitMQ, Amazon SQS
+
+### Cloud Services
+- AWS, GCP, Azure basics
+
+### Monitoring
+- Prometheus, Grafana, New Relic
+
+### Load Balancers
+- Nginx, HAProxy, AWS ELB
+
+## Learning Resources
+
+### Books
+- "Designing Data-Intensive Applications" by Martin Kleppmann
+- "System Design Interview" by Alex Xu
+
+### YouTube Channels
+- Gaurav Sen
+- Tech Dummies
+- System Design Interview
+
+### Online Courses
+- Grokking System Design
+- System Design Primer (GitHub)
+
+### Practice
+- High Scalability blog
+- Engineering blogs (Uber, Netflix, Google, etc.)
+
+## Study Strategy
+
+### Phase 1: Fundamentals (2-3 weeks)
+- Focus on scalability, databases, caching, and load balancing
+- Practice basic system design questions
+
+### Phase 2: Advanced Topics (2-3 weeks)
+- Distributed systems, microservices, and design patterns
+- Practice medium complexity questions
+
+### Phase 3: Specialization (1-2 weeks)
+- Industry-specific knowledge based on target companies
+- Practice complex system design questions
+
+### Phase 4: Interview Practice (Ongoing)
+- Mock interviews and whiteboarding
+- Review real-world system architectures
+
+## Key Success Tips
+- Understand the "why" behind each choice, not just memorizing architectures
+- Practice explaining trade-offs
+- Always consider scalability, reliability, and cost
+- Start with simple solutions and then scale up
+- Focus on communication and problem-solving approach
+- Keep up with engineering blogs and case studies
