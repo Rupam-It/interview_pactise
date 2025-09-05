@@ -1,2 +1,19 @@
 AWS:
-1. 
+1. https://razorops.com/blog/top-50-aws-interview-question-and-answers/
+2. https://www.cloudzero.com/blog/aws-interview-questions/
+
+Terraform:
+1. https://razorops.com/blog/top-50-terraform-interview-questions-and-answers/
+2. 
+
+
+DOCKER:
+1. https://razorops.com/blog/top-50-docker-interview-question-and-answers/
+2. https://razorops.com/blog/top-50-docker-interview-question-and-answers/
+
+
+ci/cd:
+1. https://razorops.com/blog/top-50-cicd-interview-questions-and-answers/
+
+
+
